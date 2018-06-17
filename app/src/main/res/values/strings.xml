@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">Inventory App</string>
+
+    <!-- Label for overflow menu option that inserts fake pet data into the app [CHAR LIMIT=20] -->
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <!-- Label for overflow menu option that deletes all pet data in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete All Products</string>
+
+    <!-- Title for the activity to add or edit a new pet [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new_product">Add a Product</string>
+    <string name="editor_activity_title_edit_product">Edit Product</string>
+
+    <!-- Validation toasts for editing the products [CHAR LIMIT=20] -->
+    <string name="validation_msg_product_name">Please add product name</string>
+    <string name="validation_msg_product_price">Please add product price</string>
+    <string name="validation_msg_product_quantity">Please add product quantity</string>
+
+    <!-- Toast message in editor when new pet has been successfully inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_product_successful">Product saved</string>
+
+    <!-- Toast message in editor when new pet has failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_product_failed">Error with saving product</string>
+
+    <!-- Toast message in editor when current pet was successfully updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_product_successful">Product updated</string>
+
+    <!-- Toast message in editor when current pet has failed to be updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_product_failed">Error with updating product</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current pet [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current pet [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this pet?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current pet [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current pet [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+
+    <!-- Toast message in editor when current pet was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_product_successful">Product deleted</string>
+
+    <!-- Toast message in editor when current pet has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_product_failed">Error with deleting product</string>
+
+    <!-- Label for editor menu option to save pet and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current pet [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Label for editor overflow menu option that opens up email app to order more [CHAR LIMIT=20 -->
+    <string name="action_order_more">Order More</string>
+
+    <!-- Label for overview category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_overview">Overview</string>
+    <string name="category_supplier">Supplier</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_product_name">Name</string>
+
+    <!-- Text hint for breed field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_product_price">Price in GBP</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_product_quantity">Quantity</string>
+
+    <!-- Text hint for phonenumber field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_phone_number">Phone Number</string>
+
+    <!-- Labels for dropdown menu options for Supplier name [CHAR LIMIT=30] -->
+    <string name="supplier_unknown">Unknown</string>
+    <string name="supplier_penguin">Penguin</string>
+    <string name="supplier_amazon">Amazon</string>
+    <string name="supplier_waterstones">Waterstones</string>
+
+    <!-- Empty View Texts -->
+    <string name="empty_view_title_text">It\s a bit lonely here</string>
+    <string name="empty_view_subtitle_text">Please add some stuff</string>
+
+    <!-- Sale Button Text -->
+    <string name="sale_button">Sale</string>
+
+    <!-- Out of Stock Message -->
+    <string name="toast_out_of_stock_msg">Out of stock</string>
+    <string name="buy_msg_confirm">Confirm Buy</string>
+    <string name="no_product_in_stock">No product in stock</string>
+    <string name="error_msg_stock_update">Error stock update</string>
+    <string name="gbp_currency">GBP</string>
+    <string name="in_stock">In stock</string>
+    <string name="pieces">PCS</string>
+
+</resources>
